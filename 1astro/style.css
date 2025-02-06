@@ -1,0 +1,80 @@
+@charset "UTF-8" ;
+
+
+body {
+    background-image: linear-gradient(to right, #0C3339,#2470AD, #23aa8f);
+}
+
+h1 {
+    color: #6ae4d4b2;
+    box-shadow: 5px 5px 5px #0C3339;
+    text-align: center;
+    background-color: #153a33;
+    animation-name: aga;
+    animation-duration: 2s;
+}
+@keyframes aga {
+    from {
+        margin-left: 100%;
+        
+        width: 50%;
+    }
+
+    to {
+        margin-left: 0%;
+       
+        width: 100%;
+    }
+    
+}
+
+main {
+margin-right: auto;
+margin-left: 30%;
+margin-right: 30%;
+box-shadow: 10px 10px 10px #0C3339;
+border-radius: 15px;
+animation-name: pe;
+}
+
+   p {
+   color: #77ffe4;
+   text-align: justify;
+   animation-name: pe;
+   animation-duration: 2s;
+   text-align: justify;
+}
+
+ @keyframes pe {
+    from {
+        margin-left: 100%;
+        color: #57000e;
+        width: 50%;
+    }
+
+    to {
+        margin-left: 0%;
+        color: #0C3339;
+        width: 100%;
+    }
+    }
+
+button {
+    align-items: center ;
+}
+
+img {
+    margin: 30px;
+    animation: pe;
+    animation-name: aga;
+    animation-duration: 3s;
+    margin: 0%;
+}
+h2 {
+    color: #6ae4d4b2;
+    box-shadow: 5px 5px 5px #0C3339;
+    text-align: center;
+    background-color: #153a33;
+    animation-name: aga;
+    animation-duration: 2s;
+}

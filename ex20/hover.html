@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body  {
+        font-family: 'Courier New', Courier, monospace;
+        }
+        div:hover {
+            color: brown;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: yellow;
+            background-color: aqua;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover examlpe</h1>
+     <p>passeo mouse 3mbaijo</p>
+     <div>passe o mouse aqui
+        <p>texo hided</p>
+     </div>
+</body>
+</html>

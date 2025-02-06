@@ -1,0 +1,132 @@
+@charset "UTF-8"; 
+@font-face {
+    font-family: idroid;
+    src: url('fontes/idroid.otf');
+}
+
+.letrasverdes {
+    color: rgb(0, 119, 0);
+}
+
+nav {
+    text-shadow: 1px 1px 1px;
+}
+
+p {
+    text-align: left;
+ text-shadow: 1px 1px 1px;
+ width: 80%;
+}
+
+body {
+    background-color: #81d8a8;
+}
+
+
+iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.links:after {
+
+    color: white;
+}
+
+
+
+.links:hover {
+
+    color: aqua;
+
+}
+
+.links{
+    color: white;
+}
+
+
+div::before {
+    color: white;
+}
+
+
+.h1p {
+
+    text-align: center;
+    padding: 0px 10%;
+
+}
+
+.h1 {
+    text-align: center;
+    font-family: idroid; 
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+text-align: left;
+    font-family: idroid;
+    background-color: rgba(95, 241, 95, 0.575);
+    background: linear-gradient();
+    text-decoration: color(top green, white)
+
+    
+}
+
+
+
+
+img {
+;
+
+}
+
+
+nav {
+    text-align: justify;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+main {
+    margin: auto 15%;
+    background-color: white;
+    box-shadow: 1px 1px 3px;
+    margin-top: auto;
+
+}
+
+.h1p {
+    text-shadow: 1px 1px 1px black;
+}
+
+
+header {
+    box-shadow: 1px 1px 3px black;
+    shad
+margin: auto;
+background: linear-gradient(to top, #2A6D48,#3BD881);
+color: white;
+text-shadow: 1px 1px 3px black;
+}
+
+a:hover{
+    color: aqua;
+}
+
+
+a  {
+    color: white;
+}
+
