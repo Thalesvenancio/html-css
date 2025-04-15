@@ -1,0 +1,60 @@
+/* Estilização global */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Remove barras de rolagem */
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Fundo escuro para dar contraste */
+    color: white; /* Texto branco para melhor visibilidade */
+  }
+  
+  /* Canvas do jogo */
+  canvas {
+    display: block; /* Remove espaço em branco abaixo do canvas */
+    width: 100vw; /* Ocupa toda a largura da tela */
+    height: 100vh; /* Ocupa toda a altura da tela */
+  }
+  
+  /* Informações na tela (controles) */
+  .info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10; /* Garante que fique acima do canvas */
+    font-size: 16px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+  }
+  
+  /* Estilo para o título do jogo */
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffcc00; /* Amarelo para destacar */
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); /* Sombra para melhor legibilidade */
+    opacity: 0.9;
+    pointer-events: none; /* Impede interação com o texto */
+  }
+  
+  /* Efeito de transição para elementos dinâmicos */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .info,
+  .title {
+    animation: fadeIn 1s ease-in-out;
+  }
